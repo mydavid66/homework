@@ -1,0 +1,32 @@
+body{
+	background-color: #f4f4f4;
+	font-size: 50px;
+	color:#969;
+	}
+	.container{
+		background-image: url(images/backguid.jpg);
+		background-position: center top;
+		background-repeat: no-repeat;
+		outline:1px dashed red;
+		height: 1000px;
+		}
+	.content{
+		height: 519px;
+		
+	}
+	section.title{
+		height: 529px;
+	}
+	div.container >* {
+		outline:1px dashed red;
+	}
+	
+	div.container >* >*
+	{
+		outline:1px dashed blue;
+	}div.container >*>*>*{
+		outline:2px dashed green;
+		
+	}
+	
+	

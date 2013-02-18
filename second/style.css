@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+	background-image: url(images/backguid.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 1900px;
+}
+div.containers{
+	outline:1px dashed red;
+}
+div.containers >*{
+	outline:1px dashed blue;
+}
+div.containers >*>*{
+	outline:3px dashed green;
+}
+div.containers>*>*>*{
+	outline:2px dashed orange;
+}
+div.containers>*>*>*>*{
+	outline:2px dashed gray;
+}
+h2{
+	outline:1px dashed green !important;
+}
+.center{
+	text-align:center;
+}
+section.slidshow{
+	min-height: 446px;
+}
+
+section.slidshow div.tran{
+	min-height: inherit;
+}
+section.slidshow div.slide{
+	min-height: inherit;
+	}
+.content{
+	height: 870px;
+}
+h2{
+	font-size: 30px;
+	color:#969;
+}
+p{
+	font-size: 25px;
+	color:#000000;
+}
